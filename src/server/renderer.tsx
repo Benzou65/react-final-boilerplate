@@ -8,6 +8,7 @@ import App from "../client/App/App";
 import { ChunkExtractor, ChunkExtractorManager } from "@loadable/server";
 import { ServerStyleSheet } from "styled-components";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (req: express.Request) => {
   const sheet = new ServerStyleSheet();
   const loadableJson = path.resolve(__dirname, "./loadable-stats.json");

@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default ({ styles, children, extractor }: any) => {
   return `<html lang="en" class="h-100">
   <head>
